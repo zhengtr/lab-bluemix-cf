@@ -1,6 +1,7 @@
 # These can be overidden with env vars.
 REGISTRY ?= us.icr.io
-NAMESPACE ?= nyu-devops
+# NAMESPACE ?= nyu-devops
+NAMESPACE ?= zhengtr
 IMAGE_NAME ?= lab-bluemix-cf
 IMAGE_TAG ?= 1.0
 IMAGE ?= $(REGISTRY)/$(NAMESPACE)/$(IMAGE_NAME):$(IMAGE_TAG)
